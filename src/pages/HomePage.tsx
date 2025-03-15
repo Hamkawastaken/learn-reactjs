@@ -1,4 +1,5 @@
 import ProfileCard from "../components/ProfileCard";
+import Counter from "../components/counter";
 
 const HomePage = () => {
   
@@ -10,6 +11,24 @@ const HomePage = () => {
   };
 
   const users: User[] = [
+    {
+      id: 1,
+      name: "John Doe",
+      email: "john.doe@example.com",
+      age: 20,
+    },
+    {
+      id: 1,
+      name: "John Doe",
+      email: "john.doe@example.com",
+      age: 20,
+    },
+    {
+      id: 1,
+      name: "John Doe",
+      email: "john.doe@example.com",
+      age: 20,
+    },
     {
       id: 1,
       name: "John Doe",
@@ -28,6 +47,9 @@ const HomePage = () => {
             <ProfileCard name={user.name} email={user.email} age={user.age} />
           );
         })}
+      </div>
+      <div>
+        <Counter />
       </div>
     </>
   );
