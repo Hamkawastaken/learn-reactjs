@@ -1,47 +1,47 @@
-import ProfileCard from "../components/ProfileCard";
-import Counter from "../components/counter";
+// import ProfileCard from "../components/ProfileCard";
+// import Counter from "../components/counter";
 
 const HomePage = () => {
   
-  type User = {
-    id: number;
-    name: string;
-    email: string;
-    age: number;
-  };
+  // type User = {
+  //   id: number;
+  //   name: string;
+  //   email: string;
+  //   age: number;
+  // };
 
-  const users: User[] = [
-    {
-      id: 1,
-      name: "John Doe",
-      email: "john.doe@example.com",
-      age: 20,
-    },
-    {
-      id: 1,
-      name: "John Doe",
-      email: "john.doe@example.com",
-      age: 20,
-    },
-    {
-      id: 1,
-      name: "John Doe",
-      email: "john.doe@example.com",
-      age: 20,
-    },
-    {
-      id: 1,
-      name: "John Doe",
-      email: "john.doe@example.com",
-      age: 20,
-    },
-  ];
+  // const users: User[] = [
+  //   {
+  //     id: 1,
+  //     name: "John Doe",
+  //     email: "john.doe@example.com",
+  //     age: 20,
+  //   },
+  //   {
+  //     id: 1,
+  //     name: "John Doe",
+  //     email: "john.doe@example.com",
+  //     age: 20,
+  //   },
+  //   {
+  //     id: 1,
+  //     name: "John Doe",
+  //     email: "john.doe@example.com",
+  //     age: 20,
+  //   },
+  //   {
+  //     id: 1,
+  //     name: "John Doe",
+  //     email: "john.doe@example.com",
+  //     age: 20,
+  //   },
+  // ];
 
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>Home Page</h1>
 
-      <div>
+      {/* <div>
         {users.map((user) => {
           return (
             <ProfileCard name={user.name} email={user.email} age={user.age} />
@@ -50,7 +50,7 @@ const HomePage = () => {
       </div>
       <div>
         <Counter />
-      </div>
+      </div> */}
     </>
   );
 };
