@@ -1,58 +1,38 @@
-// import ProfileCard from "../components/ProfileCard";
-// import Counter from "../components/counter";
-
-const HomePage = () => {
-  
-  // type User = {
-  //   id: number;
-  //   name: string;
-  //   email: string;
-  //   age: number;
-  // };
-
-  // const users: User[] = [
-  //   {
-  //     id: 1,
-  //     name: "John Doe",
-  //     email: "john.doe@example.com",
-  //     age: 20,
-  //   },
-  //   {
-  //     id: 1,
-  //     name: "John Doe",
-  //     email: "john.doe@example.com",
-  //     age: 20,
-  //   },
-  //   {
-  //     id: 1,
-  //     name: "John Doe",
-  //     email: "john.doe@example.com",
-  //     age: 20,
-  //   },
-  //   {
-  //     id: 1,
-  //     name: "John Doe",
-  //     email: "john.doe@example.com",
-  //     age: 20,
-  //   },
-  // ];
-
+const Homepage = () => {
   return (
     <>
-      <h1>Home Page</h1>
-
-      {/* <div>
-        {users.map((user) => {
-          return (
-            <ProfileCard name={user.name} email={user.email} age={user.age} />
-          );
-        })}
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            flexDirection:"column",
+            justifyContent: "center",
+            alignItems:"center",
+            backgroundColor: "#FFCF50",
+            marginTop:"20px",
+            marginBottom: "20px",
+            paddingRight: "162px",
+            paddingLeft: "162px",
+            marginRight: "100px",
+            marginLeft: "100px",
+            borderRadius: "24px",
+            borderBottom: "10px solid black",
+            borderRight: "10px solid black",
+            color: "black",
+          }}
+        >
+          <h1>Home</h1>
+        </div>
       </div>
-      <div>
-        <Counter />
-      </div> */}
     </>
   );
 };
 
-export default HomePage;
+export default Homepage;
