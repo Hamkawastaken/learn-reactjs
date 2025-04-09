@@ -34,7 +34,6 @@ function App() {
           marginLeft: "auto",
           borderRadius: "16px",
           width: "900px",
-          backgroundColor: "#3F7D58",
           color: "white",
         }}
       >
